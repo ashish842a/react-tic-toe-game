@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  /* min-width: 100vh !important; */
+  height: 100vh;
+  background-color: antiquewhite;
+  /* border: 10px solid red; */
+ 
+}
+
+.result-message{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  gap: 10px;
+
+  background-color: #fab1a0;
+}
+
+.result-message button{
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.board{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.board-container{
+  width: 40vw;
+  height: 80%;
+  background-color: black;
+}
+
+
+
+.row{
+  width: 100%;
+  height: calc(100%/3);
+  display: flex;
+  /* border: 2px solid red; */
+}
+
+.square{
+  min-width: calc(100%/3);
+  min-height: 100%;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .result-message {
+    width: 100%;
+  }
+
+  .board-container{
+    width: 80vw;
+  }
+  
+}
