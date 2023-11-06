@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ashish842a/tic-toe-game/static/css/main.24c9d13b.css",
-    "main.js": "/ashish842a/tic-toe-game/static/js/main.947c96db.js",
-    "static/js/787.37701a87.chunk.js": "/ashish842a/tic-toe-game/static/js/787.37701a87.chunk.js",
-    "index.html": "/ashish842a/tic-toe-game/index.html",
-    "main.24c9d13b.css.map": "/ashish842a/tic-toe-game/static/css/main.24c9d13b.css.map",
-    "main.947c96db.js.map": "/ashish842a/tic-toe-game/static/js/main.947c96db.js.map",
-    "787.37701a87.chunk.js.map": "/ashish842a/tic-toe-game/static/js/787.37701a87.chunk.js.map"
+    "main.css": "/ashish842a/react-tic-toe-game.git/static/css/main.24c9d13b.css",
+    "main.js": "/ashish842a/react-tic-toe-game.git/static/js/main.08f0066b.js",
+    "static/js/787.37701a87.chunk.js": "/ashish842a/react-tic-toe-game.git/static/js/787.37701a87.chunk.js",
+    "index.html": "/ashish842a/react-tic-toe-game.git/index.html",
+    "main.24c9d13b.css.map": "/ashish842a/react-tic-toe-game.git/static/css/main.24c9d13b.css.map",
+    "main.08f0066b.js.map": "/ashish842a/react-tic-toe-game.git/static/js/main.08f0066b.js.map",
+    "787.37701a87.chunk.js.map": "/ashish842a/react-tic-toe-game.git/static/js/787.37701a87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24c9d13b.css",
-    "static/js/main.947c96db.js"
+    "static/js/main.08f0066b.js"
   ]
 }
